@@ -1,0 +1,80 @@
+@service-mobile-desc-box: 50px;
+#services{
+	.service{  
+		padding-bottom: 1500px; 
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.service-bg {
+	  position: relative; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	  z-index: -10000;
+	}
+	.service-bg img {
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+	}
+	#item-1 {background-image: url(../../../images/services/service-1.jpg);}
+	#item-2 {background-image: url(../../../images/services/service-2.jpg);}
+	#item-3 {background-image: url(../../../images/services/service-3.jpg);}
+	#item-4 {background-image: url(../../../images/services/service-4.jpg);}
+	#item-5 {background-image: url(../../../images/services/service-5.jpg);}
+	#item-6 {background-image: url(../../../images/services/service-6.jpg);}
+	#item-7 {background-image: url(../../../images/services/service-7.jpg);}
+	#item-8 {background-image: url(../../../images/services/service-8.jpg);}
+	#item-9 {background-image: url(../../../images/services/service-9.jpg);}
+	#item-10 {background-image: url(../../../images/services/service-10.jpg);}
+	#item-11 {background-image: url(../../../images/services/service-11.jpg);}
+	#item-12 {background-image: url(../../../images/services/service-12.jpg);}
+	#item-13 {background-image: url(../../../images/services/service-13.jpg);}
+	#item-14 {background-image: url(../../../images/services/service-14.jpg);}
+	#item-15 {background-image: url(../../../images/services/service-15.jpg);}
+	#item-16 {background-image: url(../../../images/services/service-16.jpg);}
+	#item-17 {background-image: url(../../../images/services/service-17.jpg);}
+
+}
+
+
+@media(max-width:767px){
+	#services{
+		.service{  
+			padding-bottom: 1150px; 
+			background-attachment: scroll;
+		}
+		#serviceIndex {
+	    	background-image: url(../../../images/services/mobile/service-1.jpg);
+		}
+		#serviceConsultation {
+		    background-image: url(../../../images/services/mobile/service-2.jpg);
+		    .description-box{ margin-top: @service-mobile-desc-box;}
+		}
+		#serviceDesign {
+		    background-image: url(../../../images/services/mobile/service-3.jpg);
+		    .description-box{ margin-top: @service-mobile-desc-box;}
+		}
+		#serviceInstallation {
+		    background-image: url(../../../images/services/mobile/service-4.jpg);
+		    .description-box{ margin-top: @service-mobile-desc-box;}
+		}
+		#serviceMaintenance {
+		    background-image: url(../../../images/services/mobile/service-5.jpg);
+		    .description-box{ margin-top: @service-mobile-desc-box;}
+		}
+		#serviceLivestock {
+		    background-image: url(../../../images/services/mobile/service-6.jpg);
+		    .description-box{ margin-top: @service-mobile-desc-box;}
+		}
+
+	}
+
+}

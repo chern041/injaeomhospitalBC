@@ -1,0 +1,68 @@
+body{
+	font-family: "Source Sans Pro";
+  background: #FFF;
+}
+
+.description-box{
+    margin: 150px 10px 0 4%;
+    width: 400px;
+    color:#000;
+    background: #fff;
+    float: left;
+    font-size: 18px;
+    min-height: 100px;
+    line-height: 1.5em;
+    padding: 10px;
+    opacity: .75;
+}
+ .description-box h1{
+    font-size: 28px;
+    font-weight: bold;
+    color:#0174df;
+}
+.description-box h2{
+    font-size: 23px;
+    font-weight: bold;
+}
+.description-box h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.description-box li{
+    line-height: 1.5em;
+}
+.main-bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -10000;
+}
+.main-bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+.mobile{display: none;}
+
+
+
+@media(max-width:767px){
+  .mobile{display: block;}
+  .description-box{
+    margin: 85px 4% 0;
+    width: 92%;
+  }
+
+  .leaflet-top {
+    top: 75px !important;
+  }
+}

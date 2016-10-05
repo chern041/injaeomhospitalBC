@@ -1,0 +1,38 @@
+.side-navigation {
+  position: fixed;
+  z-index: 1;
+  right:4%;
+  padding:40px 0;
+  width: 100%;
+  text-align: right;
+  bottom: 0;
+  .service-menu{
+    list-style: none;
+    z-index: 1;
+  }
+
+  li{line-height: 35px;}
+
+  a{
+    color: #000;
+    font-weight:bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.2em;
+  }
+  a:hover{
+    color:#0174df;
+  }
+}
+
+@media(max-width:767px){
+  .side-navigation {
+    margin-top: 0;
+    padding: 5px 4%;
+    right: 0;
+    background: #000;
+    bottom: 0;
+    .service-menu{display: none;}
+  }
+}

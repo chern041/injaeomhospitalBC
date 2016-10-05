@@ -1,0 +1,54 @@
+.contact {
+  position:absolute;
+  top:15%;
+  left: 5%;
+  min-width: 250px;
+  width: 25%;
+
+  .contact-info {
+    background: #000;
+    opacity: .75;
+    color: white;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    line-height: 1.5em;
+    
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .contact-form {
+    background: #000;
+    opacity: .75;
+    padding: 20px;
+    color: #FF0000;
+    
+    .contact-form-header {
+      color: white;
+      font-size: 20px;
+    }
+
+    input,textarea {
+      width: 100%;
+      display: block;
+      padding: 6px 0;
+
+    }
+  }
+
+}
+
+
+@media(max-width:767px){
+  .contact {
+    width: 100%;
+    top:50px;
+    left: 0;
+    .contact-info {
+      font-size: 20px;
+    }
+  }
+}
